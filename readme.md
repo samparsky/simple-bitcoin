@@ -7,10 +7,13 @@ This is a web application that receives a
 
 It checks to see if the specified transaction has met the confirmation level then triggers the url.
 
-For example a transcation 
+For example a bitcoin transcation with `xxxxx` transaction hash, trigger a url 'http://xxxx' when the confirmation level reaches 10.
+
 ### Install components
 * Redis ( ensure redis is running )
 * Python 3.x ( x >= 4 )
+* Bitcoin node ( ZeroMQ and transaction indexing enabled )
+
 
 ### Requirements
 
